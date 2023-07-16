@@ -29,7 +29,10 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+@Composable
+fun text(){
+    Text(text = "Hello World!")
+}
 @Composable
 fun ButtonConponent(){
     Button(onClick = { /*TODO*/ }) {
